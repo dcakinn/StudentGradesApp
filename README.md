@@ -34,7 +34,7 @@ Average = (Assignment1 + Assignment2 + Assignment3) / 3 * 0.15
 
 ## 📂 Project Structure
 ```
-/student-grades-app
+/StudentGradesApp
 │── public/
 │   ├── students.json
 │   ├── classes.json

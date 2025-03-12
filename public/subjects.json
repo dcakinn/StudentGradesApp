@@ -1,0 +1,32 @@
+[
+  {
+    "class": "10",
+    "section": "A",
+    "subjects": ["Matematik", "Fizik", "Kimya"]
+  },
+  {
+    "class": "10",
+    "section": "B",
+    "subjects": ["Matematik", "Biyoloji", "Kimya"]
+  },
+  {
+    "class": "11",
+    "section": "A",
+    "subjects": ["Matematik", "Kimya", "Tarih"]
+  },
+  {
+    "class": "11",
+    "section": "B",
+    "subjects": ["Fizik", "Biyoloji", "Coğrafya"]
+  },
+  {
+    "class": "12",
+    "section": "A",
+    "subjects": ["Geometri", "Fizik", "Kimya"]
+  },
+  {
+    "class": "12",
+    "section": "B",
+    "subjects": ["Matematik", "Felsefe", "Tarih"]
+  }
+]

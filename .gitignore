@@ -1,0 +1,29 @@
+# Node.js bağımlılıkları
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Derleme dosyaları
+dist/
+build/
+
+# Çevresel değişkenler
+.env
+.env.local
+.env.development
+.env.production
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# IDE ve düzenleyici dosyaları
+.vscode/
+.idea/
+*.log
+
+# Public klasöründeki JSON verileri hariç tutma (İsteğe bağlı)
+!/public/students.json
+!/public/classes.json
+!/public/sections.json
+!/public/subjects.json

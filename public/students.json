@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Ali Yılmaz",
+    "class": "10",
+    "section": "A",
+    "subjects": ["Matematik", "Fizik", "Kimya"]
+  },
+  {
+    "id": 2,
+    "name": "Ayşe Demir",
+    "class": "10",
+    "section": "A",
+    "subjects": ["Matematik", "Biyoloji", "Kimya"]
+  },
+  {
+    "id": 3,
+    "name": "Mehmet Kaya",
+    "class": "10",
+    "section": "B",
+    "subjects": ["Matematik", "Fizik", "Biyoloji"]
+  },
+  {
+    "id": 4,
+    "name": "Zeynep Şahin",
+    "class": "11",
+    "section": "A",
+    "subjects": ["Matematik", "Kimya", "Tarih"]
+  },
+  {
+    "id": 5,
+    "name": "Emre Aktaş",
+    "class": "11",
+    "section": "B",
+    "subjects": ["Fizik", "Biyoloji", "Coğrafya"]
+  }
+]

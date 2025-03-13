@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 const StudentGrades = () => {
   const { grades } = useGrades();
 
+  // öğrenci not ortalaması hesaplaması yapılmıştır. 
+  // ortalama (homework1 + homework2 + homework3) / 3 * 0.15 + (midterm1 + midterm2) / 2 * 0.40 + final * 0.45 formülüne uyacak şekilde hesaplanmıştır.
   const calculateAverage = (studentGrades) => {
     const homeworkAvg = ((studentGrades.homework1 || 0) + (studentGrades.homework2 || 0) + (studentGrades.homework3 || 0)) / 3;
     const midtermAvg = ((studentGrades.midterm1 || 0) + (studentGrades.midterm2 || 0)) / 2;
@@ -12,6 +14,8 @@ const StudentGrades = () => {
     return (homeworkAvg * 0.15 + midtermAvg * 0.40 + finalGrade * 0.45).toFixed(2);
   };
 
+  // grades nesnesi Object.entries(grades) fonksiyonu ile dizi formatına çevrilmiştir. 
+  // her öğrenci için id'ye göre bir <li> oluşturulmuştur. id'ye göre öğrencinin not ortalaması listelenmiştir.
   return (
     <div className="p-4 max-w-3xl mx-auto bg-white shadow-md rounded-lg">
       <h2 className="text-xl font-bold mb-4">Öğrenci Ortalama Notları</h2>

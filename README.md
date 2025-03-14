@@ -57,8 +57,8 @@ Average = (Assignment1 + Assignment2 + Assignment3) / 3 * 0.15
 ## 🚀 Installation & Usage
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/student-grades-app.git
-cd student-grades-app
+git clone https://github.com/your-username/studentgradesapp.git
+cd studentgradesapp
 ```
 
 ### 2️⃣ Install Dependencies
